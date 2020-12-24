@@ -1,0 +1,12 @@
+{{ if ne .Values.host "localhost" -}}
+apiVersion: v1
+data:
+  tls.crt: {{ .Values.crtFile | b64enc | squote }}
+  tls.key: {{ .Values.keyFile | b64enc | squote }}
+kind: Secret
+metadata:
+  creationTimestamp: null
+  name: "tls-{{ .Values.host }}"
+  namespace: ingress-nginx
+type: kubernetes.io/tls
+{{ end }}
