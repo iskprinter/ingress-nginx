@@ -36,7 +36,7 @@ Infrastructure for IskPrinter
         ```
     * For cloud deployment, also set the TLS crt and key files.
         ```
-        helm install infrastructure ./helm \
+        helm install ingress-iskprinter-master ./helm \
             --kube-context '<context>' \
             -n ingress-nginx \
             --set host='iskprinter.com' \
