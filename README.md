@@ -1,4 +1,4 @@
-# infrastructure
+# iskprinter/ingress-nginx
 
 Infrastructure for IskPrinter
 
