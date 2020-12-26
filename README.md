@@ -40,6 +40,6 @@ Infrastructure for IskPrinter
             --kube-context '<context>' \
             -n ingress-nginx \
             --set host='iskprinter.com' \
-            --set-file crtFile='<path-to-cert-file>' \
+            --set-file crtChainFile='<path-to-cert-chain-file>' \
             --set-file keyFile='<path-to-key-file>'
         ```
