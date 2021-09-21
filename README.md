@@ -1,5 +1,7 @@
 # iskprinter/ingress-nginx
 
+# *The ingress has been moved to the [iskprinter/infrastructure](https://github.com/iskprinter/infrastructure) repository.*
+
 Infrastructure for IskPrinter
 
 ## Instructions
